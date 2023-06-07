@@ -13,5 +13,3 @@ start app :
 ```
 npm start
 ```
-proget youtube :
-[Youtube](https://www.youtube.com/watch?v=CxviluHmX5Y&list=PLZyzdEsUrUmPH5bp2R9K7ayoEjWd0a6Tn&index=1) -youtub start

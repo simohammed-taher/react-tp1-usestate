@@ -1,16 +1,19 @@
 import "./index.css"
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 function Moyenne() {
 	const [nom, setNom] = useState('')
 	const [phy, setPhy] = useState()
 	const [math, setMath] = useState()
 	const [franc, setFranc] = useState()
-	const [moye, setMoye] = useState()
+	const [moye, setMoye] = useState(0)
 	
 	function calculer() {
 		let m = (parseFloat(phy) + parseFloat(math) + parseFloat(franc)) / 3;
 		setMoye(() => m.toFixed(2))
 	}
+	useEffect(()=>{
+		calculer()
+	},[phy,math,franc,moye])
 	return (
 		<div className='container'>
 			<div>

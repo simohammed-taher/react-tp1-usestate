@@ -1,0 +1,39 @@
+.list-notes-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .list-notes-container h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .list-notes-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .list-notes-container input,
+  .list-notes-container select {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .list-notes-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .list-notes-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .list-notes-container span {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
